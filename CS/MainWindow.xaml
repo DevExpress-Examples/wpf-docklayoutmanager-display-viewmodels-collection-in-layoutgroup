@@ -8,11 +8,11 @@
     Title="MainWindow"
     Width="794"
     Height="359">
+    <Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
     <Grid>
-        <Grid.Resources>
-            <local:MainViewModel x:Key="viewModel" />
-        </Grid.Resources>
-        <dxdo:DockLayoutManager FloatingMode="Desktop" DataContext="{StaticResource viewModel}">
+        <dxdo:DockLayoutManager FloatingMode="Desktop">
             <dxdo:DockLayoutManager.LayoutRoot>
                 <dxdo:LayoutGroup Caption="LayoutRoot">
                     <dxdo:DocumentGroup x:Name="DocumentsGroup" ItemsSource="{Binding DocumentViews}"/>
