@@ -33,11 +33,6 @@ namespace WpfApplication {
             DockCommand = new DelegateCommand(Dock);
         }
 
-        //string IMVVMDockingProperties.TargetName {
-        //    get { return "DockPanels"; }
-        //    set { throw new NotImplementedException(); }
-        //}
-
         public SolidColorBrush ColorBrush { get; set; }
         public DelegateCommand DockCommand { get; private set; }
         public DelegateCommand FloatCommand { get; private set; }
