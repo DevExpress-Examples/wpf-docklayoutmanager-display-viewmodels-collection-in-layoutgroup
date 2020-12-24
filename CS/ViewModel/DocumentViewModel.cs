@@ -16,26 +16,8 @@ namespace WpfApplication
             Text = String.Format("Document text ({0})", caption);
         }
 
-        //string IMVVMDockingProperties.TargetName
-        //{
-        //    get
-        //    {
-        //        return "DocumentsGroup";
-        //    }
-        //    set
-        //    {
-        //        throw new NotImplementedException();
-        //    }
-        
-        //}
-
-
-
         public string Caption { get; set; }
-
-
         public object Glyph { get; set; }
-
         public string Text { get; set; }
         public string TargetName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
     }
