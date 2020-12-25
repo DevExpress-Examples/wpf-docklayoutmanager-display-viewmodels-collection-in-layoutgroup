@@ -1,0 +1,28 @@
+<Window
+    x:Class="WpfApplication.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:View="clr-namespace:WpfApplication.Views"
+    Title="MainWindow"
+    Width="794"
+    Height="359">
+    <Grid>
+        <View:MainView/>
+    </Grid>
+    <!--<Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
+    <Grid>
+        <dxdo:DockLayoutManager Name="dockLayoutManager1">
+            <dxdo:DockLayoutManager.LayoutRoot>
+                <dxdo:LayoutGroup Caption="LayoutRoot">
+                    <dxdo:DocumentGroup x:Name="DocumentsGroup" ItemsSource="{Binding DocumentViews}" />
+                    <dxdo:LayoutGroup
+                        x:Name="DockPanels"
+                        ItemsSource="{Binding ChildViews}"
+                        Orientation="Vertical" />
+                </dxdo:LayoutGroup>
+            </dxdo:DockLayoutManager.LayoutRoot>
+        </dxdo:DockLayoutManager>
+    </Grid>-->
+</Window>
