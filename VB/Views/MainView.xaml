@@ -35,11 +35,5 @@
                 </dxdo:LayoutGroup>
             </dxdo:DockLayoutManager.LayoutRoot>
         </dxdo:DockLayoutManager>
-        <!--<dxdo:DockLayoutManager ItemsSource="{Binding Panels}">
-            <dxdo:LayoutGroup x:Name="root">
-                <dxdo:LayoutGroup Name="layoutGroup" />
-                <dxdo:DocumentGroup Name="documentGroup" />
-            </dxdo:LayoutGroup>
-        </dxdo:DockLayoutManager>-->
     </Grid>
 </UserControl>
