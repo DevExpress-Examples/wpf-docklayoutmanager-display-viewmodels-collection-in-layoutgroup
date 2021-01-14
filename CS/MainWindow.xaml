@@ -9,20 +9,4 @@
     <Grid>
         <View:MainView/>
     </Grid>
-    <!--<Window.DataContext>
-        <local:MainViewModel />
-    </Window.DataContext>
-    <Grid>
-        <dxdo:DockLayoutManager Name="dockLayoutManager1">
-            <dxdo:DockLayoutManager.LayoutRoot>
-                <dxdo:LayoutGroup Caption="LayoutRoot">
-                    <dxdo:DocumentGroup x:Name="DocumentsGroup" ItemsSource="{Binding DocumentViews}" />
-                    <dxdo:LayoutGroup
-                        x:Name="DockPanels"
-                        ItemsSource="{Binding ChildViews}"
-                        Orientation="Vertical" />
-                </dxdo:LayoutGroup>
-            </dxdo:DockLayoutManager.LayoutRoot>
-        </dxdo:DockLayoutManager>
-    </Grid>-->
 </Window>
