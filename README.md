@@ -5,7 +5,7 @@ Pass the ViewModel collection to the LayoutGroup.ItemsSource property to display
 
 *Files to look at*:
 
-* [MainView.xaml](https://github.com/DevExpress-Examples/DockLayoutManager-Display-ViewModels-collection-in-LayoutGroup/blob/20.2.3%2B/CS/Views/MainView.xaml) (**VB**: [MainView.xaml](https://github.com/DevExpress-Examples/DockLayoutManager-Display-ViewModels-collection-in-LayoutGroup/blob/20.2.3%2B/VB/Views/MainView.xaml))
+* [MainWindow.xaml](https://github.com/DevExpress-Examples/DockLayoutManager-Display-ViewModels-collection-in-LayoutGroup/blob/20.2.3%2B/CS/MainWindow.xaml) (**VB**: [MainWindow.xaml](https://github.com/DevExpress-Examples/DockLayoutManager-Display-ViewModels-collection-in-LayoutGroup/blob/20.2.3%2B/VB/MainWindow.xaml))
 
 * [MainViewModel.cs](https://github.com/DevExpress-Examples/DockLayoutManager-Display-ViewModels-collection-in-LayoutGroup/blob/20.2.3%2B/CS/ViewModels/MainViewModel.cs) (**VB**: [MainViewModel.vb](https://github.com/DevExpress-Examples/DockLayoutManager-Display-ViewModels-collection-in-LayoutGroup/blob/20.2.3%2B/VB/ViewModels/MainViewModel.vb))
 
