@@ -12,10 +12,12 @@ Pass the ViewModel collection to the LayoutGroup.ItemsSource property to display
 
 ![image](https://user-images.githubusercontent.com/12169834/174017665-c4e15248-461c-40fb-82c6-ae915bdfe757.png)
 
+<!-- default file list -->
 ## Files to Look At:
 
 * [MainWindow.xaml](./CS/MainWindow.xaml) (**VB**: [MainWindow.xaml](./VB/MainWindow.xaml))
 * [MainViewModel.cs](./CS/ViewModels/MainViewModel.cs) (**VB**: [MainViewModel.vb](./VB/ViewModels/MainViewModel.vb))
+<!-- default file list end -->
 
 ## Documentation
 
