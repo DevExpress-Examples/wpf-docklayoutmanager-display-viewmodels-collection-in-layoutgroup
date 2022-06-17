@@ -5,8 +5,8 @@
     xmlns:ViewModels="clr-namespace:WpfApplication.ViewModels"
     xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking"
     Title="MainWindow"
-    Width="794"
-    Height="359">
+    Width="800"
+    Height="360">
     <Grid>
         <Grid.DataContext>
             <ViewModels:MainViewModel />
