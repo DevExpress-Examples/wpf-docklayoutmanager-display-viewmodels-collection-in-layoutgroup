@@ -3,7 +3,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# WPF Dock Layout Manager - Populate a DockLayoutManager LayoutGroup with the ViewModels collection
+# WPF Dock Layout Manager - Populate a DockLayoutManager LayoutGroup with the ViewModels Collection
 
 This code example displays a ViewModels collection in the DockLayoutManager LayoutGroup.
 
